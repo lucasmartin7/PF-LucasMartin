@@ -1,0 +1,86 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar{
+    background-color: black;
+}
+
+body{
+    background-image: url(../img/fondo-pagina.png);
+    background-size: cover;
+}
+
+.navItem{
+    color: white;
+}
+
+.card-body{
+    color: white;
+    background-color: black
+}
+.masInfo{
+    background-color: rgba(119, 114, 114, 0.692);
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.productContainer{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.imgAuto{
+    height: 300px;
+    border-bottom: 6px solid rgba(0, 0, 0, 0.729);
+}
+
+.itemAuto{
+    width: 300px;
+    height: 630px;
+    border: 3px solid white;
+}
+
+main{
+    color: white;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 500px;
+}
+
+.parrafoVolks{
+    margin-top: 6%;
+    padding: 2%;
+}
+
+.parrafo{
+    width: 90%;
+}
+
+.flex-container {
+    flex-direction: column;
+    margin-left: 65%;
+    margin-top: -19%;
+    color: white;
+}
+
+.itemGolf{
+    width: 400px;
+    height: 200px;
+}
+
+.itemEscarabajo{
+    width: 400px;
+    height: 200px;
+}
+
+.itemPassat{
+    width: 400px;
+    height: 200px;
+}
+
+/*Footer*/
+.footer{
+    background-color: rgba(128, 128, 128, 0.884);
+}

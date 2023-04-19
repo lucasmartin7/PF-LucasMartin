@@ -46,7 +46,7 @@ main{
     color: white;
     margin-left: 5%;
     margin-top: 2%;
-    width: 500px;
+    
 }
 
 .parrafoVolks{
@@ -59,11 +59,20 @@ main{
 }
 
 .flex-container {
-    flex-direction: column;
-    margin-left: 65%;
-    margin-top: -19%;
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 100px;
     color: white;
 }
+
+.flex-container h3{
+    margin-left: 60px;
+}
+
+.flex-container img{
+    margin-left:60px ;
+}
+
 
 .itemGolf{
     width: 400px;
@@ -83,4 +92,90 @@ main{
 /*Footer*/
 .footer{
     background-color: rgba(128, 128, 128, 0.884);
+    height: 100vh;
 }
+
+
+@media (max-width: 1400px){
+    .flex-container h3{
+        margin-left: 10px;
+    }
+    
+    .flex-container img{
+        margin-left: 10px;
+    }
+
+    
+.itemGolf{
+    width: 200px;
+    height: 100px;
+}
+
+.itemEscarabajo{
+    width: 200px;
+    height: 100px;
+}
+
+.itemPassat{
+    width: 200px;
+    height: 100px;
+}
+}
+
+
+ @media (max-width: 620px){
+    .parrafo{
+        width: 70%;
+    }
+
+    .flex-container{
+        display: flex;
+        margin-top: 150px;
+        margin-left: 0%;
+        flex-direction: column;
+    }
+
+    .itemGolf{
+        width: 300px;
+        height: 100px;
+    }
+    
+    .itemEscarabajo{
+        width: 300px;
+        height: 100px;
+    }
+    
+    .itemPassat{
+        width: 300px;
+        height: 100px;
+    }
+ }
+
+ @media (max-width: 500px){
+    .parrafo{
+        width: 70%;
+    }
+
+    .flex-container{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 0%;
+        flex-direction: column;
+    }
+
+    .itemGolf{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .itemEscarabajo{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .itemPassat{
+        width: 200px;
+        height: 100px;
+    }
+ }
+

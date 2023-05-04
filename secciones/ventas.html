@@ -8,34 +8,44 @@
     <link rel="shortcut icon" href="./img/logo-vw.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="../estilos/estilos.css" rel="stylesheet">
+    <link href="../sass/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <ul class="nav justify-content-center navBar">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link navItem" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navItem" href="nosotros.html">Nosotros</a>
+              <a class="nav-link" href="ventas.html">Ventas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navItem" href="ventas.html">Ventas</a>
+              <a class="nav-link" href="galeria.html">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navItem" href="galeria.html">Galeria</a>
+              <a class="nav-link" href="contactanos.html">Contactanos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link navItem" href="contactanos.html">Contactanos</a>
-              </li>
           </ul>
-    </header>
+        </div>
+      </div>
+    </nav>
+  </header>
     <section class="productContainer">
       <div class="card itemAuto">
         <img src="../img/sirocco.jpg" class="card-img-top imgAuto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Sirocco</h5>
-          <p class="card-text">El Volkswagen Scirocco es un automóvil deportivo compacto producido por el fabricante alemán Volkswagen entre los años 1974 y 1992 en su primera versión, con reediciones posteriores hasta la actualidad. Es un hatchback de tres puertas con motor delantero y tracción delantera.</p>
+          <p class="textoAuto">El Volkswagen Scirocco es un automóvil deportivo compacto producido por el fabricante alemán Volkswagen entre los años 1974 y 1992 en su primera versión, con reediciones posteriores hasta la actualidad. Es un hatchback de tres puertas con motor delantero y tracción delantera.</p>
           <a href="#" class="masInfo">Comprar</a>
         </div>
       </div>
@@ -43,7 +53,7 @@
         <img src="../img/VolkswagenGolf.jpg" class="card-img-top imgAuto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Golf</h5>
-          <p class="card-text">El Volkswagen Golf es un automóvil del segmento C producido por el fabricante alemán de automóviles Volkswagen desde 1974. Es un automóvil de altas prestaciones y uno de los más vendidos en la historia, con más de 30 millones de unidades fabricadas.</p>
+          <p class="textoAuto">El Volkswagen Golf es un automóvil del segmento C producido por el fabricante alemán de automóviles Volkswagen desde 1974. Es un automóvil de altas prestaciones y uno de los más vendidos en la historia, con más de 30 millones de unidades fabricadas.</p>
           <a href="#" class="masInfo">Comprar</a>
         </div>
       </div>
@@ -51,7 +61,7 @@
         <img src="../img/Polo.jpg" class="card-img-top imgAuto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Polo GTI</h5>
-          <p class="card-text">El Volkswagen Polo es un automóvil de turismo del segmento B producido por el fabricante alemán de automóviles Volkswagen desde 1975. A lo largo de su historia se ha vendido con carrocerías hatchback de tres y cinco puertas, sedán de dos y cuatro puertas y familiar de cinco puertas.</p>
+          <p class="textoAuto">El Volkswagen Polo es un automóvil de turismo del segmento B producido por el fabricante alemán de automóviles Volkswagen desde 1975. A lo largo de su historia se ha vendido con carrocerías hatchback de tres y cinco puertas, sedán de dos y cuatro puertas y familiar de cinco puertas.</p>
           <a href="#" class="masInfo">Comprar</a>
         </div>
       </div>
@@ -59,7 +69,7 @@
         <img src="../img/Bora.jpg" class="card-img-top imgAuto" alt="...">
         <div class="card-body">
           <h5 class="card-title">Bora</h5>
-          <p class="card-text">El Bora se introdujo al Mercado un poco después que su hermano mayor en la gama, el Passat. Las formas redondeadas y la línea del toldo curva sirvieron como la nueva identificación estética de Volkswagen, abandonando los bordes angulosos a favor de esquinas más curvas. </p>
+          <p class="textoAuto">El Bora se introdujo al Mercado un poco después que su hermano mayor en la gama, el Passat. Las formas redondeadas y la línea del toldo curva sirvieron como la nueva identificación estética de Volkswagen, abandonando los bordes angulosos a favor de esquinas más curvas. </p>
           <a href="#" class="masInfo">Comprar</a>
         </div>
       </div>

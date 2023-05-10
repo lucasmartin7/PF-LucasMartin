@@ -1,3 +1,7 @@
-@mixin bordes {
+@mixin bordes{
     border: 2px solid white;
+  }
+
+@mixin efecto{
+    border: 2px solid rgb(253, 0, 0);
   }

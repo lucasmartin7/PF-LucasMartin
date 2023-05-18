@@ -29,7 +29,7 @@ body{
 }
 .masInfo{
     background-color: $colorLetra;
-    color: rgba(255, 255, 255, 0.856);
+    color: rgba(255, 254, 254, 0.993);
 }
 
 .productContainer{
@@ -84,6 +84,21 @@ main{
     padding: 5%;
     width: 90%;
 }
+
+.tablaVentas{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th{
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #534a4a;
+  }
 
 h3{
     margin-left: 2%;

@@ -23,7 +23,7 @@ body {
 }
 
 .masInfo {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(88, 84, 84);
   color: rgba(255, 255, 255, 0.856);
 }
 
@@ -68,6 +68,21 @@ main .parrafo .parrafoVolks {
   color: white;
   padding: 5%;
   width: 90%;
+}
+
+.tablaVentas{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #534a4a;
 }
 
 h3 {
